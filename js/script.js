@@ -15,10 +15,11 @@ let finalJogo = false
 
 //click botão 1
 function clickbtn1() {
-    jogadas++
+    
     let btn = document.getElementById('btn1')
 
     if (btn.value == " " && !finalJogo){
+        jogadas++
     if (controle == 0){
         controle = 1
         btn.value = "x"
@@ -38,10 +39,11 @@ function clickbtn1() {
 }
 // click 2
 function clickbtn2() {
-    jogadas++
+    
     let btn = document.getElementById('btn2')
 
     if (btn.value == " " && !finalJogo){
+        jogadas++
     if (controle == 0){
         controle = 1
         btn.value = "x"
@@ -60,10 +62,11 @@ function clickbtn2() {
 }
 //click 3
 function clickbtn3() {
-    jogadas++
+    
     let btn = document.getElementById('btn3')
 
     if (btn.value == " " && !finalJogo){
+        jogadas++
     if (controle == 0){
         controle = 1
         btn.value = "x"
@@ -82,10 +85,10 @@ function clickbtn3() {
 }
 //click 4
 function clickbtn4() {
-    jogadas++
     let btn = document.getElementById('btn4')
 
     if (btn.value == " " && !finalJogo){
+        jogadas++
     if (controle == 0){
         controle = 1
         btn.value = "x"
@@ -104,10 +107,10 @@ function clickbtn4() {
 }
 //click 5
 function clickbtn5() {
-    jogadas++
     let btn = document.getElementById('btn5')
 
     if (btn.value == " " && !finalJogo){
+        jogadas++
     if (controle == 0){
         controle = 1
         btn.value = "x"
@@ -126,10 +129,10 @@ function clickbtn5() {
 }
 //click 6
 function clickbtn6() {
-    jogadas++
     let btn = document.getElementById('btn6')
 
     if (btn.value == " " && !finalJogo){
+        jogadas++
     if (controle == 0){
         controle = 1
         btn.value = "x"
@@ -148,10 +151,10 @@ function clickbtn6() {
 }
 //click 7 
 function clickbtn7() {
-    jogadas++
     let btn = document.getElementById('btn7')
 
     if (btn.value == " " && !finalJogo){
+        jogadas++
     if (controle == 0){
         controle = 1
         btn.value = "x"
@@ -170,10 +173,10 @@ function clickbtn7() {
 }
 //click 8
 function clickbtn8() {
-    jogadas++
     let btn = document.getElementById('btn8')
 
     if (btn.value == " " && !finalJogo){
+        jogadas++
     if (controle == 0){
         controle = 1
         btn.value = "x"
@@ -192,10 +195,10 @@ function clickbtn8() {
 }
 //click 9
 function clickbtn9() {
-    jogadas++
     let btn = document.getElementById('btn9')
 
     if (btn.value == " " && !finalJogo){
+        jogadas++
     if (controle == 0){
         controle = 1
         btn.value = "x"
@@ -391,6 +394,7 @@ btn9 = 0
 controle = 0
 jogadas = 0
 finalJogo = false
+
 let b1 = document.getElementById('btn1')
 let b2 = document.getElementById('btn2')
 let b3 = document.getElementById('btn3')
@@ -409,4 +413,12 @@ let b9 = document.getElementById('btn9')
  b7.value =' '
  b8.value =' '
  b9.value =' '
+
+//reniciar Label
+let lblJogador = document.getElementById('lblJogador')
+let lblJogadas = document.getElementById('lblJogadas')
+
+lblJogador.innerText = 'Jogador x'
+lblJogadas.innerText = '(1ª Jogada)'
+
 }

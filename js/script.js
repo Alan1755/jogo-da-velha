@@ -368,9 +368,12 @@ function vereficarGanhador(){
         lblJogadas.innerText = ' '
         return
     }
+        if(controle==0){
+            lblJogador.innerText = 'Jogador x'
+        } else {
+            lblJogador.innerText = 'Jogador O'
+        }
+
         lblJogadas.innerText ='(' + (jogadas+1) + 'ª jogadas)'
     
-
-    
-
 }

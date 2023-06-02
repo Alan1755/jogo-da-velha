@@ -2,7 +2,7 @@ main {
     text-align: center;
 }
 .tabuleiro div input {
-    width:100px;    
+    width:100px;
     height:100px;
     margin: 5px;
     border: 2px purple;
@@ -12,7 +12,7 @@ main {
 }
 body {
     background-color: rgb(32, 32, 36);
-    margin: 200px 0 0 0;
+    margin: 20px 0 0 0;
     font-family: 'kanit';
     overflow: auto;
 }
@@ -23,7 +23,7 @@ h1{
 }
 h2{
     color: hotpink;
-    font-size: 30px;
+    font-size: 45px;
     font-family: 'Courier New', Courier, monospace;
 }
 input {

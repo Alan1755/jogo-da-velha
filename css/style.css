@@ -11,7 +11,7 @@ main {
     cursor: pointer;
 }
 body {
-    background-color: rgb(32, 32, 36);
+    background-color: #0d0d3f;
     margin: 20px 0 0 0;
     font-family: 'kanit';
     overflow: auto;
@@ -28,7 +28,4 @@ h2{
 }
 input {
     background-color: plum;
-}
-.butão {
-
 }
